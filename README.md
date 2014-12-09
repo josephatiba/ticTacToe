@@ -1,4 +1,15 @@
 
+Game logic:
+	Winning combinations-if a specific player has boxes with the following indexes that player wins:
+		**index[0], [1], [2]
+		**index[3], [4], [5]
+		**index[6], [7], [8]
+		**index[0], [3], [6]
+		**index[1], [4], [7]
+		**index[2], [5], [8]
+		**index[0], [4], [8]
+		**index[2], [4], [6]
+
 
 ****inHTML
 DONE-give the main > section a active-board id
