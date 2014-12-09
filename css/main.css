@@ -1,0 +1,83 @@
+body {
+	text-align: center;
+}
+
+#active-board {
+	text-align: center;
+	width: 550px;
+	height: 550px;
+	border: 1px dashed black;
+	margin: auto;
+	position: relative;
+	top: 50px;
+	margin-top: 10px;
+
+}
+
+.game-board {
+
+}
+
+
+
+/*table {
+	
+	text-align: center;
+}
+
+thead{
+	position: relative;
+	top: 200px;
+	border: 1px solid blue;
+}
+
+td {
+	border: 1px solid red;
+	text-align: center;
+	margin: 0 auto;
+}*/
+
+.board-squares {
+	height: 180px;
+	width: 180px;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: auto auto;
+}
+
+.board-squares.unselected {
+	background-color: white;
+
+}
+
+.board-squares.x {
+	background-image: url('../images/x.png');
+	background-size: 100%;
+}
+
+.board-squares.apple {
+	background-image: url('../images/apple.png');
+	background-size: 100%;
+}
+
+
+
+/*img {
+	
+	height: 100%;
+	width: 100%;
+	padding: 0 0 0 0;
+	text-align: center;
+	margin: 0 0;	 
+}*/
+
+/*.addBtn {
+	height: 30px;
+	width: 70px;
+	float: left;
+	position: relative;
+	top: -400px;
+	right: -140px;
+	background: url('');
+}*/
