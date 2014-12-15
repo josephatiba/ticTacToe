@@ -1,14 +1,35 @@
 
 Game logic:
-	Winning combinations-if a specific player has boxes with the following indexes that player wins:
-		**index[0], [1], [2]
-		**index[3], [4], [5]
-		**index[6], [7], [8]
-		**index[0], [3], [6]
-		**index[1], [4], [7]
-		**index[2], [5], [8]
-		**index[0], [4], [8]
-		**index[2], [4], [6]
+
+	
+	-Checkout micah's president thing: grab things an object and have arrays inside of the object 
+	-only ready Dans when I'm trying to learn how to switch players
+	
+
+	make a player constructor
+		-include name
+		-selected image
+		-tile array
+
+	
+
+	make a function:
+		-when a player clicks on an tile the image they've selected shows up
+		-when a player click on a tile, the index of the tile they clicked gets stored to their array
+
+	make a checkWin function:
+		-if player.tile.array length is equal to or greater than 3 check to see if they player has any of the winning combinations:
+			
+			-Winning combinations-if a specific player has boxes with the following indexes in their tile array player wins:
+						**index[0], [1], [2]
+						**index[3], [4], [5]
+						**index[6], [7], [8]
+						**index[0], [3], [6]
+						**index[1], [4], [7]
+						**index[2], [5], [8]
+						**index[0], [4], [8]
+						**index[2], [4], [6]
+
 
 
 ****inHTML
