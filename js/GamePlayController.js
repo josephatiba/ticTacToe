@@ -59,9 +59,7 @@ function GamePlayController($firebase) {
 	
 
 	function checkWin(){
-		console.log("clicked");
 		if((self.sync.numSquares[0] == self.sync.numSquares[1]) && (self.sync.numSquares[1] == self.sync.numSquares[2])){
-			console.log(self.sync.numSquares[0] + " wins!!");
 			this.declareWin = self.sync.numSquares[0] + " wins!!";
 			if(self.sync.numSquares[1] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
@@ -73,7 +71,6 @@ function GamePlayController($firebase) {
 			};
 		}
 		else if ((self.sync.numSquares[3] == self.sync.numSquares[4]) && (self.sync.numSquares[4] == self.sync.numSquares[5])){
-			console.log(self.sync.numSquares[3] + " wins!!");
 			this.declareWin = self.sync.numSquares[3] + " wins!!";
 			if(self.sync.numSquares[4] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
@@ -85,7 +82,6 @@ function GamePlayController($firebase) {
 			};
 		}
 		else if((self.sync.numSquares[6] == self.sync.numSquares[7]) && (self.sync.numSquares[7] == self.sync.numSquares[8])){
-			console.log(self.sync.numSquares[6] + " wins!!");
 			this.declareWin = self.sync.numSquares[7] + " wins!!";
 			if(self.sync.numSquares[7] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
@@ -97,7 +93,6 @@ function GamePlayController($firebase) {
 			};
 		}
 		else if ((self.sync.numSquares[0] == self.sync.numSquares[3]) && (self.sync.numSquares[3] == self.sync.numSquares[6])){
-			console.log(self.sync.numSquares[0] + " wins!!");
 			this.declareWin = self.sync.numSquares[0] + " wins!!";
 			if(self.sync.numSquares[3] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
@@ -109,7 +104,6 @@ function GamePlayController($firebase) {
 			};
 		}
 		else if ((self.sync.numSquares[1] == self.sync.numSquares[4]) && (self.sync.numSquares[4] == self.sync.numSquares[7])){
-			console.log(self.sync.numSquares[1] + " wins!!");
 			this.declareWin = self.sync.numSquares[1] + " wins!!";
 			if(self.sync.numSquares[4] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
@@ -121,7 +115,6 @@ function GamePlayController($firebase) {
 			};
 		}
 		else if ((self.sync.numSquares[2] == self.sync.numSquares[5]) && (self.sync.numSquares[5] == self.sync.numSquares[8])){
-			console.log(self.sync.numSquares[2] + " wins!!");
 			this.declareWin = self.sync.numSquares[2] + " wins!!";
 			if(self.sync.numSquares[5] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
@@ -133,7 +126,6 @@ function GamePlayController($firebase) {
 			};
 		}
 		else if ((self.sync.numSquares[0] == self.sync.numSquares[4]) && (self.sync.numSquares[4] == self.sync.numSquares[8])){
-			console.log(self.sync.numSquares[0] + " wins!!");
 			this.declareWin = self.sync.numSquares[0] + " wins!!";
 			if(self.sync.numSquares[4] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
@@ -145,7 +137,6 @@ function GamePlayController($firebase) {
 			};
 		}
 		else if ((self.sync.numSquares[2] == self.sync.numSquares[4]) && (self.sync.numSquares[4] == self.sync.numSquares[6])){
-			console.log(self.sync.numSquares[2] + " wins!!");
 			this.declareWin = self.sync.numSquares[2] + " wins!!";
 			if(self.sync.numSquares[4] === "X"){
 				self.sync.xWins = self.sync.xWins + 1;
